@@ -1,3 +1,8 @@
+#
+# Conditional build:
+%bcond_with	tests	# perform "make test"
+			# tests seem to hang
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Math
 %define	pnam	TrulyRandom
@@ -6,7 +11,8 @@ Summary(pl):	TrulyRandom - interfejs perlowy do generatora liczb naprawdê losowy
 Name:		perl-Math-TrulyRandom
 Version:	1.0
 Release:	10
-License:	distributable
+# if used in a product, Systemics should be given attribution
+License:	free use, distributable
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	32e2273ee192203837cb1a21756a27a0
@@ -33,6 +39,8 @@ przerwañ.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make} OPTIMIZE="%{rpmcflags}"
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
