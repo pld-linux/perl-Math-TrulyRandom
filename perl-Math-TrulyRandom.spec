@@ -19,6 +19,8 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 Patch0:		%{name}-paths.patch
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	code_which_works_on_modern_linux(not_detected_in_version) = 1.0
+ExclusiveArch:	abacus
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
