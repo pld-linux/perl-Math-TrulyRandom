@@ -5,7 +5,7 @@ Summary:	TrulyRandom - Perl interface to a truly random number generator functio
 Summary(pl):	TrulyRandom - interfejs do generatora liczb naprawdê losowych
 Name:		perl-Math-TrulyRandom
 Version:	1.0
-Release:	9
+Release:	10
 License:	distributable
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
