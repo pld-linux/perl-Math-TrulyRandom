@@ -1,0 +1,24 @@
+--- Math-TrulyRandom-1.0/examples/example_1.pl.perlpath	Mon May  6 11:00:20 1996
++++ Math-TrulyRandom-1.0/examples/example_1.pl	Wed May 12 00:11:49 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ use Utils::TrulyRandom;
+ use Crypt::SHA;
+--- Math-TrulyRandom-1.0/Makefile.PL.perlpath	Wed May 22 13:29:04 1996
++++ Math-TrulyRandom-1.0/Makefile.PL	Wed May 12 00:11:49 1999
+@@ -1,4 +1,4 @@
+-#! /usr/local/bin/perl
++#! /usr/bin/perl
+ 
+ use ExtUtils::MakeMaker;
+ # See lib/ExtUtils/MakeMaker.pm for details of how to influence
+--- Math-TrulyRandom-1.0/TrulyRandom.pm.perlpath	Wed May 22 13:29:12 1996
++++ Math-TrulyRandom-1.0/TrulyRandom.pm	Wed May 12 00:11:49 1999
+@@ -1,4 +1,4 @@
+-#! /usr/local/bin/perl -w -I/usr/local/lib/perl5
++#! /usr/bin/perl -w -I/usr/local/lib/perl5
+ 
+ package Math::TrulyRandom;
+ 
