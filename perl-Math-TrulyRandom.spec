@@ -4,8 +4,8 @@
 			# tests seem to hang
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	TrulyRandom
+%define		pdir	Math
+%define		pnam	TrulyRandom
 Summary:	TrulyRandom - Perl interface to a truly random number generator function
 Summary(pl):	TrulyRandom - interfejs perlowy do generatora liczb naprawdê losowych
 Name:		perl-Math-TrulyRandom
