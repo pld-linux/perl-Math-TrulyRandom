@@ -1,8 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Math
 %define	pnam	TrulyRandom
-Summary:	Math::TrulyRandom perl module
-Summary(pl):	Modu³ perla Math::TrulyRandom
+Summary:	TrulyRandom - Perl interface to a truly random number generator function
 Name:		perl-Math-TrulyRandom
 Version:	1.0
 Release:	7
@@ -15,10 +14,9 @@ BuildRequires:	perl >= 5.6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Math::TrulyRandom perl module.
-
-%description -l pl
-Modu³ perla Math::TrulyRandom.
+The B<TrulyRandom> module provides an ability to generate truly random
+numbers from within Perl programs.  The source of the randomness is from
+interrupt timing discrepancies.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
