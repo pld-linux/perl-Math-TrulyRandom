@@ -3,7 +3,7 @@ Summary:	Math-TrulyRandom perl module
 Summary(pl):	Modu³ perla Math-TrulyRandom
 Name:		perl-Math-TrulyRandom
 Version:	1.0
-Release:	4
+Release:	5
 Copyright:	distributable
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
