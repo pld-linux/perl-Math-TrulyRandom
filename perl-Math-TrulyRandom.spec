@@ -46,7 +46,6 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_sitearch}/Math/TrulyRandom.pm
 
 %dir %{perl_sitearch}/auto/Math/TrulyRandom
-%{perl_sitearch}/auto/Math/TrulyRandom/.packlist
 %{perl_sitearch}/auto/Math/TrulyRandom/TrulyRandom.bs
 %attr(755,root,root) %{perl_sitearch}/auto/Math/TrulyRandom/TrulyRandom.so
 
