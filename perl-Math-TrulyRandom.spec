@@ -4,7 +4,7 @@
 Summary:	TrulyRandom - Perl interface to a truly random number generator function
 Name:		perl-Math-TrulyRandom
 Version:	1.0
-Release:	7
+Release:	8
 License:	distributable
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
