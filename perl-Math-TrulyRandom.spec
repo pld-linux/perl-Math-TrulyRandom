@@ -2,7 +2,7 @@
 %define	pdir	Math
 %define	pnam	TrulyRandom
 Summary:	TrulyRandom - Perl interface to a truly random number generator function
-Summary(pl):	TrulyRandom - interfejs do generatora liczb naprawdê losowych
+Summary(pl):	TrulyRandom - interfejs perlowy do generatora liczb naprawdê losowych
 Name:		perl-Math-TrulyRandom
 Version:	1.0
 Release:	10
