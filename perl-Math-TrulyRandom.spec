@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Math
 %define	pnam	TrulyRandom
-Summary:	Math-TrulyRandom perl module
-Summary(pl):	Modu³ perla Math-TrulyRandom
+Summary:	Math::TrulyRandom perl module
+Summary(pl):	Modu³ perla Math::TrulyRandom
 Name:		perl-Math-TrulyRandom
 Version:	1.0
 Release:	7
@@ -15,10 +15,10 @@ BuildRequires:	perl >= 5.6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Math-TrulyRandom perl module.
+Math::TrulyRandom perl module.
 
 %description -l pl
-Modu³ perla Math-TrulyRandom.
+Modu³ perla Math::TrulyRandom.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
