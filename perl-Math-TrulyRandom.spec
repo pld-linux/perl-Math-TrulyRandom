@@ -14,9 +14,10 @@ Release:	11
 # if used in a product, Systemics should be given attribution
 License:	free use, distributable
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Math/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	32e2273ee192203837cb1a21756a27a0
 Patch0:		%{name}-paths.patch
+URL:		http://search.cpan.org/dist/Math-TrulyRandom/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	code_which_works_on_modern_linux(not_detected_in_version) = 1.0
