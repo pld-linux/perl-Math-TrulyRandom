@@ -61,6 +61,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc README examples/example_1.pl
 %{perl_vendorarch}/Math/TrulyRandom.pm
 %dir %{perl_vendorarch}/auto/Math/TrulyRandom
-%{perl_vendorarch}/auto/Math/TrulyRandom/TrulyRandom.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Math/TrulyRandom/TrulyRandom.so
 %{_mandir}/man3/*
