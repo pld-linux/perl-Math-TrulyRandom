@@ -3,7 +3,6 @@
 %bcond_with	tests	# perform "make test"
 			# tests seem to hang
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Math
 %define		pnam	TrulyRandom
 Summary:	TrulyRandom - Perl interface to a truly random number generator function
